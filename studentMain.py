@@ -1,16 +1,32 @@
-# Write code for the function random_verb, which takes in no inputs but outputs 
-# one of two verbs randomly. Use the randint function to generate a number from 0-1 
-# and return a verb depending on whether the number is equal 0 or 1. Feel free to 
-# experiment with different verbs, but for submission purposes return the string "run"
-# if the number is 0, else return "kayak".
+# Write code for the function word_transformer, which takes in a string word as input. 
+# If word is equal to "NOUN", return a random noun, if word is equal to "VERB", 
+# return a random verb, else return the first character of word. 
 
 from random import randint
 
 def random_verb():
-    n = randint(0,1)
-    if(n == 0):
-        print("run")
+    random_num = randint(0, 1)
+    if random_num == 0:
+        return "run"
     else:
-        print("kayak")
+        return "kayak"
+        
+def random_noun():
+    random_num = randint(0,1)
+    if random_num == 0:
+        return "sofa"
+    else:
+        return "llama"
 
-random_verb()
+def word_transformer(word):
+    if word == "NOUN":
+        return random_noun()
+    
+    if word == "VERB":
+        return random_verb()
+
+    else:
+        return word[0]
+
+
+print(word_transformer("NOUN"))
