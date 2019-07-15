@@ -1,16 +1,16 @@
-# Write code for the function random_noun, which takes in no inputs but outputs 
-# one of two nouns randomly. Use the randint function to generate a number 
-# from 0-1 and return a noun depending on whether the number is equal to 0 or 1. 
-# Feel free to experiment with different nouns, but for submission purposes return 
-# the string "sofa" if the number is 0, else return "llama".
+# Write code for the function random_verb, which takes in no inputs but outputs 
+# one of two verbs randomly. Use the randint function to generate a number from 0-1 
+# and return a verb depending on whether the number is equal 0 or 1. Feel free to 
+# experiment with different verbs, but for submission purposes return the string "run"
+# if the number is 0, else return "kayak".
 
 from random import randint
 
-def random_noun():
-    number = randint(0,1)
-    if number == 0:
-        return "sofa"
-    if number == 1:
-        return "llama"
+def random_verb():
+    n = randint(0,1)
+    if(n == 0):
+        print("run")
+    else:
+        print("kayak")
 
-print(random_noun())
+random_verb()
