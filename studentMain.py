@@ -1,24 +1,28 @@
-# Define a procedure, measure_udacity,
-# that takes as its input a list of strings,
-# and returns a number that is a count
-# of the number of elements in the input
-# list that start with the uppercase 
-# letter 'U'.
+# Define a procedure, find_element,
+# that takes as its inputs a list
+# and a value of any type, and
+# returns the index of the first
+# element in the input list that
+# matches the value.
 
-def measure_udacity(inputList):
-    totalCount = 0
-    for e in inputList:
-        if e[0] == "U":
-        # if e.__contains__("U"):
-            totalCount += 1
-    
-    return totalCount
+# If there is no matching element,
+# return -1.
+
+def find_element(xlist, y):
+    i = 0
+
+    for item in xlist:
+        if item == y:
+            return i
+        i+=1
+
+    else:
+        return -1
 
 
 
-
-print(measure_udacity(['Dave','Sebastian','Katy']))
-#>>> 0
-
-print(measure_udacity(['Umika','Umberto']))
+print(find_element([1,2,3],3))
 #>>> 2
+
+print(find_element(['alpha','beta'],'gamma'))
+#>>> -1
