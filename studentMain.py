@@ -1,6 +1,6 @@
 p =[1,2]
 q = [3,4]
-p.append(q)
+p = p + q
 print(len(p))
 # answer = 3
 print(p)
