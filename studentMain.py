@@ -1,17 +1,28 @@
-# Read through these examples and try to figure out what's going on.
-# Press "Test Run" to see what they do.
+# Define a procedure, sum_list,
+# that takes as its input a
+# list of numbers, and returns
+# the sum of all the elements in
+# the input list.
 
-print("EXAMPLE 1: We can use for loops to go through a list of strings")
-example_list_1 = ['a', 'b', 'c', 'd']
-for thing in example_list_1:
-    print(thing)
+def sum_list(listNumber):
+    i = 0
+    sumAll = 0
+    # while i < len(listNumber):
+    #     sumAll += listNumber[i]
+    #     i += 1
+
+    # alternative
+    for e in listNumber:
+        sumAll += e
     
+    return sumAll
 
-print("EXAMPLE 2: We can use for loops on nested lists too!")
-example_list_2 = [['China', 'Beijing'],
-                  ['USA'  , 'Washington D.C.'],
-                  ['India', 'Delhi']]
-for country_with_capital in example_list_2:
-    country = country_with_capital[0]
-    capital = country_with_capital[1]
-    print(capital + ' is the capital of ' + country)
+
+print(sum_list([1, 7, 4]))
+#>>> 12
+
+print(sum_list([9, 4, 10]))
+#>>> 23
+
+print(sum_list([44, 14, 76]))
+#>>> 134
