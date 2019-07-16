@@ -1,16 +1,17 @@
-# Given the variable countries defined as:
+# We defined:
 
+stooges = ['Moe','Larry','Curly']
 
-#             Name      Capital  Populations (millions)
-countries = [['China','Beijing',1350],
-             ['India','Delhi',1210],
-             ['Romania','Bucharest',21],
-             ['United States','Washington',307]]
+# but in some Stooges films, Curly was
+# replaced by Shemp.
 
-# What multiple of Romania's population is the population
-# of China? Calculate this by accessing the list and
-# dividing the population of China (1350)
-# by the population of Romania (21).
-# Please print your result.
+# Write one line of code that changes
+# the value of stooges to be:
 
-print(countries[0][2] / countries[2][2])
+# ['Moe','Larry','Shemp']
+
+# but does not create a new List
+# object.
+
+stooges[2] = 'Shemp'
+print(stooges)
