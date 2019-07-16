@@ -1,19 +1,11 @@
-# Every entry in the following list is itself a list
-nested_list = [['HTML', 'Hypertext Markup Language forms the structure of webpages'],
-               ['CSS' , 'Cascading Style Sheets give pages style'],
-               ['Python', 'Python is a programming language'],
-               ['Lists', 'Lists are a data structure that let you organize information']]
+# Given the variable countries defined as:
 
-first_concept = nested_list[0]
+#             Name    Capital  Populations (millions)
+countries = [['China','Beijing',1350],
+             ['India','Delhi',1210],
+             ['Romania','Bucharest',21],
+             ['United States','Washington',307]]
 
-print("What do you think this will print?")
-print(first_concept)
-
-print("Since first_concept was itself a list, we can access its elements")
-first_title = first_concept[0]
-first_description = first_concept[1]
-
-
-print("What will this print?")
-print(first_title)
-print(first_description)
+# Write code to print out the capital of India
+# by accessing the list
+print(countries[1][1])
