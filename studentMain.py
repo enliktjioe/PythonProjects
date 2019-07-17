@@ -15,9 +15,66 @@ def isLeapYear(year):
     # Pseudo code for this algorithm is found at
     # http://en.wikipedia.org/wiki/Leap_year#Algorithm
     ##
+    if year%4 != 0:
+        return False
+    
+    elif year%100 != 0:
+        return True
+    
+    elif year%400 != 0:
+        return False
+
+    else:
+        return True
+
+###
+### Define a simple nextDay procedure, that assumes
+### every month has 30 days.
+###
+### For example:
+###    nextDay(1999, 12, 30) => (2000, 1, 1)
+###    nextDay(2013, 1, 30) => (2013, 2, 1)
+###    nextDay(2012, 12, 30) => (2013, 1, 1)  (even though December really has 31 days)
+###
+
+def nextDay(year, month, day):
+    """
+    Returns the year, month, day of the next day.
+    Simple version: assume every month has 30 days.
+    """
+    # YOUR CODE HERE
+
+    if day < 30:
+        return year, month, day+1
+    
+    else:
+        if month < 12:
+            return year, month+1, 1
+        else:
+            return year+1, 1, 1
 
 def daysBetweenDates(y1, m1, d1, y2, m2, d2):
+    totalDays = 0
     ##
     # Your code here.
     ##
-    return days
+
+    return totalDays
+
+def test():
+    test_cases = [((2012,9,30,2012,10,30),30), 
+                  ((2012,1,1,2013,1,1),360),
+                  ((2012,9,1,2012,9,4),3)]
+    
+    for (args, answer) in test_cases:
+        result = daysBetweenDates(*args)
+        if result != answer:
+            print("Test with data:", args, "failed")
+        else:
+            print("Test case passed!")
+
+test()
+
+
+print(nextDay(2014,11,28))
+
