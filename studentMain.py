@@ -79,6 +79,7 @@ def daysBetweenDates(y1, m1, d1, y2, m2, d2):
     #       date1 = day after date1 <- nextDay()
     #       totalDays += 1
     ##
+    assert not dateIsBefore(y2,m2,d2,y1,m1,d1)
 
     totalDays = 0
     while(dateIsBefore(y1,m1,d1,y2,m2,d2)):
@@ -93,10 +94,19 @@ def test():
                   ((2012,9,1,2012,9,4),3)]
     
     for (args, answer) in test_cases:
-        result = daysBetweenDates(*args)
-        if result != answer:
-            print("Test with data:", args, "failed")
-        else:
-            print("Test case passed!")
+        try:
+            result = daysBetweenDates(*args)
+            if result != answer:
+                print("Test with data:", args, "failed")
+            else:
+                print("Test case passed!")
+        
+        except AssertionError:
+            if answer == "AssertionError":
+                print("Nice job! Test case {0} correctly raises AssertionError!\n".format(args))
+
+            else:
+                print("Check your work! Test case {0} should not raise AssertionError!\n".format(args))
 
 test()
+daysBetweenDates(2013,1,1,2012,2,2)
