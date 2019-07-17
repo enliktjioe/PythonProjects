@@ -8,6 +8,7 @@
 # Just brainstorm ways you might approach it!
 
 daysOfMonths = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+daysOfMonthsLeap = [ 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
 def isLeapYear(year):
     ##
@@ -44,7 +45,14 @@ def nextDay(year, month, day):
     """
     # YOUR CODE HERE
 
-    if day < 30:
+    daysInMonth = 30
+
+    if(isLeapYear(year)):
+        daysInMonth = daysOfMonthsLeap[month-1]
+    else:
+        daysInMonth = daysOfMonths[month-1]
+    
+    if day < daysInMonth:
         return year, month, day+1
     
     else:
@@ -89,9 +97,10 @@ def daysBetweenDates(y1, m1, d1, y2, m2, d2):
     return totalDays
 
 def test():
-    test_cases = [((2012,9,30,2012,10,30),30), 
-                  ((2012,1,1,2013,1,1),360),
-                  ((2012,9,1,2012,9,4),3)]
+    test_cases = [((2012,9,30,2012,10,31),31), 
+                  ((2012,1,1,2013,1,1),366),
+                  ((2012,9,1,2012,9,4),3),
+                  ((2012,2,1,2012,3,1),29)]
     
     for (args, answer) in test_cases:
         try:
@@ -109,4 +118,3 @@ def test():
                 print("Check your work! Test case {0} should not raise AssertionError!\n".format(args))
 
 test()
-daysBetweenDates(2013,1,1,2012,2,2)
