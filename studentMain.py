@@ -53,12 +53,38 @@ def nextDay(year, month, day):
         else:
             return year+1, 1, 1
 
+def dateIsBefore(year1, month1, day1, year2, month2, day2):
+
+    if year1 < year2:
+        return True
+    
+    if year1 == year2:
+        if month1 < month2:
+            return True
+        else:
+            if day1 < day2:
+                return True
+            else:
+                return False
+    
+    return False
+
+
 def daysBetweenDates(y1, m1, d1, y2, m2, d2):
-    totalDays = 0
     ##
     # Your code here.
+    # pseudocode
+    # totalDays = 0
+    # while date1 is before than date2:
+    #       date1 = day after date1 <- nextDay()
+    #       totalDays += 1
     ##
 
+    totalDays = 0
+    while(dateIsBefore(y1,m1,d1,y2,m2,d2)):
+        y1, m1, d1 = nextDay(y1, m1, d1)
+        totalDays +=1
+    
     return totalDays
 
 def test():
@@ -74,7 +100,3 @@ def test():
             print("Test case passed!")
 
 test()
-
-
-print(nextDay(2014,11,28))
-
