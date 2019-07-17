@@ -96,11 +96,19 @@ def daysBetweenDates(y1, m1, d1, y2, m2, d2):
     
     return totalDays
 
+def assertTest():
+    assert nextDay(2016,2,28) == (2016,2,29)
+    assert nextDay(2015,2,28) == (2015,3,1)
+    assert daysBetweenDates(2011,1,1,2012,1,1) == 365
+    assert daysBetweenDates(2012,1,1,2013,1,1) == 366
+    print("assertTest() Finished")
+
 def test():
     test_cases = [((2012,9,30,2012,10,31),31), 
                   ((2012,1,1,2013,1,1),366),
                   ((2012,9,1,2012,9,4),3),
-                  ((2012,2,1,2012,3,1),29)]
+                  ((2012,2,1,2012,3,1),29),
+                  ((1991,5,9,2019,7,17),10296)]
     
     for (args, answer) in test_cases:
         try:
@@ -117,4 +125,5 @@ def test():
             else:
                 print("Check your work! Test case {0} should not raise AssertionError!\n".format(args))
 
+assertTest()
 test()
