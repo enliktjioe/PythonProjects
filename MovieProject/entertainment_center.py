@@ -15,3 +15,4 @@ avatar = media.Movie("Avatar",
 
 
 print(avatar.storyline)
+avatar.show_trailer()
