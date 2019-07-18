@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
@@ -15,4 +16,7 @@ avatar = media.Movie("Avatar",
 
 
 print(avatar.storyline)
-avatar.show_trailer()
+# avatar.show_trailer()
+
+movies = [toy_story, avatar]
+fresh_tomatoes.open_movies_page(movies)
