@@ -1,39 +1,21 @@
-# What is the difference between these two pieces of code?
-list1 = [1,2,3,4,5]
-list2 = [1,2,3,4,5]
-
-def proc(mylist):
-    mylist = mylist + [6, 7]
-
-def proc2(mylist):
-    mylist.append(6)
-    mylist.append(7)
-
-# Can you explain the results given by the print statements below?
-
-print("demonstrating proc")
-print(list1)
-proc(list1)
-print(list1)
-print
-print("demonstrating proc2")
-print(list2)
-proc2(list2)
-print(list2)
-
-# Python has a special assignment syntax: +=.  Here is an example:
-
-list3 = [1,2,3,4,5]
-list3 += [6, 7]
-
-# Does this behave like list1 = list1 + [6,7] or list2.append([6,7])? Write a
-# procedure, proc3 similar to proc and proc2, but for +=. 
-
-def proc3(mylist):
-    mylist = mylist + [6,7]
+# Here's another chance to practice your for loop skills. Write code for the 
+# function word_in_pos (meaning word in parts_of_speech), which takes in a string 
+# word and a list parts_of_speech as inputs. If there is a word in parts_of_speech
+# that is a substring of the variable word, then return that word in parts_of_speech, 
+# else return None.
 
 
-print("demonstrating proc3")
-print(list1)
-proc3(list1)
-print(list1)
+def word_in_pos(word, parts_of_speech):
+    for pos in parts_of_speech:
+        if pos in word:
+            return pos
+    return None
+
+
+test_cases = ["NOUN", "FALSE", "<<@PERSON><", "PLURALNOUN"]
+parts_of_speech = ["PERSON", "PLURALNOUN", "NOUN"]
+
+print(word_in_pos(test_cases[0], parts_of_speech))
+print(word_in_pos(test_cases[1], parts_of_speech))
+print(word_in_pos(test_cases[2], parts_of_speech))
+print(word_in_pos(test_cases[3], parts_of_speech))
