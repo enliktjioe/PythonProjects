@@ -1,9 +1,14 @@
 
 --General objective: Create a Python script that downloads, inserts to PostrgreSQL/PostGIS and validates the geometries of ISO 3166-1 alpha-2 (iso_a2) country list. 
+
 --Guidelines:
 --For each (or at least for as many as possible) country codes of iso_a2 list, there should be a geometry (multipolygon) in WGS84 (srs=4326), which is valid
 --Locate the open-source geospatial database that geometries of countries could be downloaded from. Preferably single location for all countries.
---Create a Python script (script and config.py should be separate files) that a) downloads the geometries from the source; b) imports the geometries to PostGIS (preferably use shp2psql, use intermediate import table, or directly to geom table), checks for the validity of the geometries (PostGIS - ST_IsValid, ST_NDims, ST_GeometryType), corrects if necessary (ST_MakeValid); and c) links each iso_a2 code to a specific geometry (via geom_id).
+--Create a Python script (script and config.py should be separate files) that
+a) downloads the geometries from the source;
+b) imports the geometries to PostGIS (preferably use shp2psql, use intermediate import table, or directly to geom table), checks for the validity of the geometries (PostGIS - ST_IsValid, ST_NDims, ST_GeometryType), corrects if necessary (ST_MakeValid);
+c) links each iso_a2 code to a specific geometry (via geom_id).
+
 --The iso_a2 list is provided, the source data for geometries is to be found from the web.
 --If some geometries are not imported (don't exist, can't be found), then leave geom_id as NULL
 --If some geometries are not valid and can't be fixed, then Python has to report that for this country, the geometry is not valid and leave geom_id as NULL
