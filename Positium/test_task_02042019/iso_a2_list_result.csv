@@ -1,0 +1,241 @@
+"id","iso_a2","country_name_eng","geom_id"
+1,"ae","United Arab Emirates",8
+2,"af","Afghanistan",2
+3,"ag","Antigua and Barbuda",15
+4,"ai","Anguilla",4
+5,"al","Albania",5
+6,"am","Armenia",10
+7,"ao","Angola",3
+8,"aq","Antarctica",12
+9,"aq","Antarctica",13
+10,"ar","Argentina",9
+11,"as","American Samoa",11
+12,"az","Azerbaijan",18
+13,"at","Austria",17
+14,"au","Australia",16
+15,"aw","Aruba",1
+16,"ax","Åland Islands",6
+17,"ba","Bosnia and Herzegovina",27
+18,"bb","Barbados",35
+19,"bd","Bangladesh",23
+20,"be","Belgium",20
+21,"bf","Burkina Faso",22
+22,"bg","Bulgaria",24
+23,"bh","Bahrain",25
+24,"bi","Burundi",19
+25,"bj","Benin",21
+26,"bl","Saint Barthélemy",29
+27,"bm","Bermuda",32
+28,"bn","Brunei Darussalam",36
+29,"bo","Bolivia, Plurinational State of",33
+30,"br","Brazil",34
+31,"bs","Bahamas",26
+32,"bz","Belize",31
+33,"bt","Bhutan",37
+34,"bw","Botswana",38
+35,"by","Belarus",30
+36,"ca","Canada",40
+37,"cd","Congo, the Democratic Republic of the",48
+38,"cf","Central African Republic",39
+39,"cg","Congo",49
+40,"ch","Switzerland",41
+41,"ci","Côte d'Ivoire",44
+42,"ck","Cook Islands",50
+43,"cl","Chile",42
+44,"cm","Cameroon",46
+45,"cn","China",43
+46,"co","Colombia",51
+47,"cr","Costa Rica",54
+48,"cz","Czech Republic",61
+49,"cu","Cuba",56
+50,"cv","Cape Verde",53
+51,"cw","Curaçao",57
+52,"cy","Cyprus",60
+53,"de","Germany",62
+54,"dj","Djibouti",63
+55,"dk","Denmark",65
+56,"dm","Dominica",64
+57,"do","Dominican Republic",66
+58,"dz","Algeria",67
+59,"ec","Ecuador",68
+60,"ee","Estonia",73
+61,"eg","Egypt",69
+62,"eh","Western Sahara",194
+63,"er","Eritrea",70
+64,"es","Spain",72
+65,"et","Ethiopia",74
+66,"fi","Finland",75
+67,"fj","Fiji",76
+68,"fk","Falkland Islands (Malvinas)",77
+69,"fm","Micronesia, Federated States of",80
+70,"fo","Faroe Islands",79
+71,"fr","France",78
+72,"ga","Gabon",81
+73,"gb","United Kingdom",82
+74,"gd","Grenada",92
+75,"ge","Georgia",83
+76,"gg","Guernsey",84
+77,"gh","Ghana",85
+78,"gi","Gibraltar",86
+79,"gl","Greenland",93
+80,"gm","Gambia",88
+81,"gn","Guinea",87
+82,"gq","Equatorial Guinea",90
+83,"gr","Greece",91
+84,"gs","South Georgia and the South Sandwich Islands",202
+85,"gt","Guatemala",94
+86,"gu","Guam",95
+87,"gw","Guinea-Bissau",89
+88,"gy","Guyana",96
+89,"hk","Hong Kong",97
+90,"hm","Heard Island and McDonald Islands",98
+91,"hn","Honduras",99
+92,"hr","Croatia",100
+93,"ht","Haiti",101
+94,"hu","Hungary",102
+95,"id","Indonesia",103
+96,"ie","Ireland",108
+97,"il","Israel",112
+98,"im","Isle of Man",104
+99,"in","India",105
+100,"io","British Indian Ocean Territory",107
+101,"iq","Iraq",110
+102,"ir","Iran, Islamic Republic of",109
+103,"is","Iceland",111
+104,"it","Italy",113
+105,"je","Jersey",115
+106,"jm","Jamaica",114
+107,"jo","Jordan",116
+108,"jp","Japan",117
+109,"ke","Kenya",121
+110,"kg","Kyrgyzstan",122
+111,"kh","Cambodia",123
+112,"ki","Kiribati",124
+113,"km","Comoros",52
+114,"kn","Saint Kitts and Nevis",125
+115,"kp","Korea, Democratic People's Republic of",185
+116,"kr","Korea, Republic of",126
+117,"kz","Kazakhstan",120
+118,"kw","Kuwait",128
+119,"ky","Cayman Islands",58
+120,"la","Lao People's Democratic Republic",129
+121,"lb","Lebanon",130
+122,"lc","Saint Lucia",133
+123,"li","Liechtenstein",134
+124,"lk","Sri Lanka",135
+125,"lr","Liberia",131
+126,"ls","Lesotho",136
+127,"lt","Lithuania",137
+128,"lu","Luxembourg",138
+129,"lv","Latvia",139
+130,"ly","Libya",132
+131,"ma","Morocco",142
+132,"mc","Monaco",143
+133,"md","Moldova, Republic of",144
+134,"me","Montenegro",153
+135,"mf","Saint Martin (French part)",141
+136,"mg","Madagascar",145
+137,"mh","Marshall Islands",148
+138,"ad","Andorra",7
+139,"mk","Macedonia, the Former Yugoslav Republic of",149
+140,"mk","North Macedonia",149
+141,"ml","Mali",150
+142,"mm","Myanmar",152
+143,"mn","Mongolia",154
+144,"mo","Macao",140
+145,"mp","Northern Mariana Islands",155
+146,"mr","Mauritania",157
+147,"ms","Montserrat",158
+148,"mz","Mozambique",156
+149,"mt","Malta",151
+150,"mu","Mauritius",159
+151,"mv","Maldives",146
+152,"mw","Malawi",160
+153,"mx","Mexico",147
+154,"my","Malaysia",161
+155,"nc","New Caledonia",163
+156,"ne","Niger",164
+157,"nf","Norfolk Island",165
+158,"ng","Nigeria",166
+159,"ni","Nicaragua",167
+160,"nl","Netherlands",169
+161,"no","Norway",170
+162,"np","Nepal",171
+163,"nr","Nauru",172
+164,"nz","New Zealand",173
+165,"nu","Niue",168
+166,"om","Oman",174
+167,"pa","Panama",176
+168,"pe","Peru",178
+169,"pf","French Polynesia",189
+170,"pg","Papua New Guinea",182
+171,"ph","Philippines",180
+172,"pk","Pakistan",175
+173,"pl","Poland",183
+174,"pm","Saint Pierre and Miquelon",210
+175,"pn","Pitcairn",177
+176,"pr","Puerto Rico",184
+177,"ps","Palestine, State of",188
+178,"pt","Portugal",186
+179,"pw","Palau",181
+180,"py","Paraguay",187
+181,"qa","Qatar",190
+182,"ro","Romania",191
+183,"rs","Serbia",211
+184,"ru","Russian Federation",192
+185,"rw","Rwanda",193
+186,"sa","Saudi Arabia",195
+187,"sb","Solomon Islands",204
+188,"sc","Seychelles",219
+189,"sd","Sudan",197
+190,"se","Sweden",216
+191,"sg","Singapore",201
+192,"sh","Saint Helena, Ascension and Tristan da Cunha",203
+193,"si","Slovenia",215
+194,"sk","Slovakia",214
+195,"sl","Sierra Leone",205
+196,"sm","San Marino",207
+197,"sn","Senegal",199
+198,"so","Somalia",209
+199,"sr","Suriname",213
+200,"ss","South Sudan",198
+201,"sz","Swaziland",217
+202,"st","Sao Tome and Principe",212
+203,"sv","El Salvador",206
+204,"sx","Sint Maarten (Dutch part)",218
+205,"sy","Syrian Arab Republic",220
+206,"za","South Africa",253
+207,"zm","Zambia",254
+208,"zw","Zimbabwe",255
+209,"tc","Turks and Caicos Islands",221
+210,"td","Chad",222
+211,"tf","French Southern Territories",14
+212,"tg","Togo",223
+213,"th","Thailand",224
+214,"tj","Tajikistan",225
+215,"tl","Timor-Leste",227
+216,"tm","Turkmenistan",226
+217,"tn","Tunisia",230
+218,"to","Tonga",228
+219,"tr","Turkey",231
+220,"tz","Tanzania, United Republic of",234
+221,"tt","Trinidad and Tobago",229
+222,"tv","Tuvalu",232
+223,"tw","Taiwan, Province of China",233
+224,"ua","Ukraine",236
+225,"ug","Uganda",235
+226,"um","United States Minor Outlying Islands",28
+227,"um","United States Minor Outlying Islands",237
+228,"us","United States",239
+229,"uz","Uzbekistan",241
+230,"uy","Uruguay",238
+231,"va","Holy See (Vatican City State)",242
+232,"vc","Saint Vincent and the Grenadines",243
+233,"ve","Venezuela, Bolivarian Republic of",244
+234,"wf","Wallis and Futuna",249
+235,"vg","Virgin Islands, British",245
+236,"vi","Virgin Islands, U.S.",246
+237,"vn","Viet Nam",247
+238,"ws","Samoa",251
+239,"vu","Vanuatu",248
+240,"ye","Yemen",252
