@@ -1,9 +1,14 @@
 import wget
 
-print('Beginning file download with wget module')
+# print('Beginning file download with wget module')
+#
+# url = 'http://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson'
+# wget.download(url, 'countries.geojson')
 
-url = 'http://i3.ytimg.com/vi/J---aiyznGQ/mqdefault.jpg'
-url2 = 'http://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson'
-# wget.download(url, '/Users/enlik/Downloads/cat4.jpg')
-wget.download(url2, '/Users/enlik/Downloads/countries.geojson')
+
+
+import geojson
+with open('countries.geojson') as f:
+    gj = geojson.load(f)
+features = gj['features'][0]
 
