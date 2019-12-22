@@ -2,3 +2,5 @@
 Positium/.idea/
 
 Positium/data/Countries_WGS84.kml
+
+Positium/data/countries.geojson
