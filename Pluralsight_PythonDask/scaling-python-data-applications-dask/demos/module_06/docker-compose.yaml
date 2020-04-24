@@ -1,0 +1,15 @@
+version: '3'
+services:
+    scheduler:
+        build: scheduler
+        ports:
+            - 8786:8786
+            - 8787:8787
+    worker1:
+        build: worker
+        volumes:
+            - ../data:/data
+    worker2:
+        build: worker
+        volumes:
+            - ../data:/data

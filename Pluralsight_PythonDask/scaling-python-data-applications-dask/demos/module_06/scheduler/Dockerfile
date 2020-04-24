@@ -1,0 +1,4 @@
+FROM continuumio/anaconda3
+
+WORKDIR /tmp
+ENTRYPOINT ["dask-scheduler"] 
