@@ -12,3 +12,7 @@ Positium/test_task_02042019/geom_result.csv
 .idea/
 
 Pluralsight_PythonDask/scaling-python-data-applications-dask/demos/data/
+
+*.dirlock
+
+*.lock
