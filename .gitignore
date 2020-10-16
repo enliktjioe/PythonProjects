@@ -16,3 +16,5 @@ Pluralsight_PythonDask/scaling-python-data-applications-dask/demos/data/
 *.dirlock
 
 *.lock
+
+Python4Fun/__pycache__/
