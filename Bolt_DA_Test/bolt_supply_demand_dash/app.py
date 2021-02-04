@@ -161,32 +161,20 @@ app.layout = html.Div(
                 #         ),
                 #     ],
                 # ),
-                # html.Div(
-                #     children=[
-                #         html.Div(
-                #             children="Date Range", className="menu-title"
-                #         ),
-                #         dcc.Dropdown(
-                #             id="date-range",
-                #             # min_date_allowed=data.Date.min().date(),
-                #             # max_date_allowed=data.Date.max().date(),
-                #             # start_date=data.Date.min().date(),
-                #             # end_date=data.Date.max().date(),
-                #             # min_date_allowed=data.Hour.min(),
-                #             # max_date_allowed=data.Hour.max(),
-                #             # start_date=data.Hour.min(),
-                #             # end_date=data.Hour.max(),
-                #             options=[
-                #                 {"label": hour, "value": hour}
-                #                 for hour in data.Hour.unique()
-                #             ],
-                #             value=1,
-                #             clearable=False,
-                #             searchable=False,
-                #             className="dropdown",
-                #         ),
-                #     ]
-                # ),
+                html.Div(
+                    children=[
+                        html.Div(
+                            children="Date Range", className="menu-title"
+                        ),
+                        dcc.DatePickerRange(
+                            id="date-range",
+                            min_date_allowed=data.Date.min().date(),
+                            max_date_allowed=data.Date.max().date(),
+                            start_date=data.Date.min().date(),
+                            end_date=data.Date.max().date(),
+                        ),
+                    ]
+                ),
             ],
             className="menu",
         ),
@@ -198,11 +186,15 @@ app.layout = html.Div(
                     #     config={"displayModeBar": False},
                     # ),
                     # className="card",
-                    children=dcc.Graph(figure=fig),
+                    children=dcc.Graph(
+                        id="graph1",
+                        figure=fig),
                     className="q2",
                 ),
                 html.Div(
-                    children=dcc.Graph(figure=fig3),
+                    children=dcc.Graph(
+                        id="graph2",
+                        figure=fig3),
                     className="q3",
                 ),
                 # html.Div(
@@ -217,6 +209,59 @@ app.layout = html.Div(
         ),
     ]
 )
+
+@app.callback(
+    [Output("graph1", "figure")],
+    [
+        Input("date-range", "start_date"),
+        Input("date-range", "end_date")
+    ],
+)
+
+def update_charts(start_date, end_date):
+    pass
+    # mask = (
+    #     & (data.Date >= start_date)
+    #     & (data.Date <= end_date)
+    # )
+    # filtered_data = data.loc[mask, :]
+    # price_chart_figure = {
+    #     "data": [
+    #         {
+    #             "x": filtered_data["Date"],
+    #             "y": filtered_data["AveragePrice"],
+    #             "type": "lines",
+    #             "hovertemplate": "$%{y:.2f}<extra></extra>",
+    #         },
+    #     ],
+    #     "layout": {
+    #         "title": {
+    #             "text": "Average Price of Avocados",
+    #             "x": 0.05,
+    #             "xanchor": "left",
+    #         },
+    #         "xaxis": {"fixedrange": True},
+    #         "yaxis": {"tickprefix": "$", "fixedrange": True},
+    #         "colorway": ["#17B897"],
+    #     },
+    # }
+
+    # volume_chart_figure = {
+    #     "data": [
+    #         {
+    #             "x": filtered_data["Date"],
+    #             "y": filtered_data["Total Volume"],
+    #             "type": "lines",
+    #         },
+    #     ],
+    #     "layout": {
+    #         "title": {"text": "Avocados Sold", "x": 0.05, "xanchor": "left"},
+    #         "xaxis": {"fixedrange": True},
+    #         "yaxis": {"fixedrange": True},
+    #         "colorway": ["#E12D39"],
+    #     },
+    # }
+    # return price_chart_figure, volume_chart_figure
 
 if __name__ == "__main__":
     app.run_server(debug=True)
