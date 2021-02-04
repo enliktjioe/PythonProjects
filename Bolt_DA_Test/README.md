@@ -1,5 +1,8 @@
 ## Part I: Supply Data - Analyst Test Task
-See https://docs.google.com/document/d/1TMEbFXhnCEp6wrFbG5uQ5wbsMqTuAAtgHXo9FvI4ZSI/edit or check `Bolt - Supply Data - Analyst Test Task.pdf` file
+- See https://docs.google.com/document/d/1TMEbFXhnCEp6wrFbG5uQ5wbsMqTuAAtgHXo9FvI4ZSI/edit or check `Bolt - Supply Data - Analyst Test Task.pdf` file
+
+- Feb 2021 version, hosted in [https://enliktjioe.site/bolt/](https://enliktjioe.site/bolt/)
+- Dashboard with Plotly Dash, deployed to [https://dashtestenlik2.herokuapp.com/](https://dashtestenlik2.herokuapp.com/)
 
 
 ## Part II: Business Research
