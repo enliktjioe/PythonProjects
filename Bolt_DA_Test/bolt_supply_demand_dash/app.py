@@ -10,20 +10,11 @@ import plotly.graph_objects as go
 import plotly.offline as pyoff
 from datetime import datetime, timedelta
 
-# df = px.data.iris() # iris is a pandas DataFrame
-# fig = px.scatter(df, x="sepal_width", y="sepal_length")
-
-
-# data = pd.read_csv("avocado.csv")
-# data["Date"] = pd.to_datetime(data["Date"], format="%Y-%m-%d")
-# data.sort_values("Date", inplace=True)
-
 data = pd.read_csv("data/df_supply_demand.csv")
-data["Date"] = pd.to_datetime(data["Date"], format="%Y-%m-%d %H:%M:%S")
-# data.sort_values("Date", inplace=True)
+data["Date"] = pd.to_datetime(data["Date"], format="%Y-%m-%d")
 
 #q2
-def update_q2(data):
+def update_graph1(data):
     cols_to_used = ['Date', 'Hour', 'Active drivers', 'Active customers']
     q2 = data[cols_to_used]
     q2 = q2.groupby(['Hour']).mean().reset_index()
@@ -37,17 +28,26 @@ def update_q2(data):
                         name='Demand'))
 
     fig.update_layout(
+        title = dict(
+            text = '<b>Visualize 24-hour curve of average supply and demand</b>',
+            x = 0.05,
+            xanchor = "left",
+        ),
         xaxis = dict(
+            title_text = "Hour",
             tickmode = 'linear',
             tick0 = 0,
             dtick = 1
+        ),
+        yaxis = dict(
+            title_text = 'Supply/Demand (SD) Value'
         )
     )
 
     return fig
 
 #q3
-def update_q3(data):
+def update_graph2(data):
     cols_to_used = ['DayName',
     'Hour',
     'Active drivers',
@@ -94,6 +94,11 @@ def update_q3(data):
 
 
     fig3.update_layout(
+        title = dict(
+            text = '<b>Visualisation of hours where we lack supply during a weekly period</b>',
+            x = 0.05,
+            xanchor = "left",
+        ),
         xaxis = dict(
             title_text = 'Hour',
             tickmode = 'linear',
@@ -157,26 +162,13 @@ app.layout = html.Div(
         html.Div(
             children=[
                 html.Div(
-                    # children=dcc.Graph(
-                    #     id="price-chart",
-                    #     config={"displayModeBar": False},
-                    # ),
-                    # className="card",
                     children=dcc.Graph(
                         id="graph1"),
                 ),
-                # html.Div(
-                #     children=dcc.Graph(
-                #         id="graph2",
-                #         figure=update_q3(data)),
-                # ),
-                # html.Div(
-                #     children=dcc.Graph(
-                #         id="volume-chart",
-                #         config={"displayModeBar": False},
-                #     ),
-                #     className="card",
-                # ),
+                html.Div(
+                    children=dcc.Graph(
+                        id="graph2"),
+                ),
             ],
             className="wrapper",
         ),
@@ -184,11 +176,8 @@ app.layout = html.Div(
 )
 
 @app.callback(
-    Output("graph1", "figure"),
-    [
-        Input("date-range", "start_date"),
-        Input("date-range", "end_date")
-    ],
+    [Output("graph1", "figure"), Output("graph2", "figure")],
+    [Input("date-range", "start_date"), Input("date-range", "end_date")],
 )
 
 def update_figure(start_date, end_date):
@@ -199,9 +188,10 @@ def update_figure(start_date, end_date):
     )
     filtered_data = data.loc[mask, :]
 
-    fig = update_q2(filtered_data)
+    fig1 = update_graph1(filtered_data)
+    fig2 = update_graph2(filtered_data)
 
-    return fig
+    return fig1, fig2
 
 if __name__ == "__main__":
     app.run_server(debug=True)
