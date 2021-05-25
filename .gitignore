@@ -21,3 +21,7 @@ Python4Fun/__pycache__/
 Others/test_14122020.txt
 Others/test_small.txt
 Others/wordsvolumedf.csv
+
+.vscode/
+
+Python4Fun/.ipynb_checkpoints/
