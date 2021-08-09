@@ -25,3 +25,5 @@ Others/wordsvolumedf.csv
 .vscode/
 
 Python4Fun/.ipynb_checkpoints/
+
+RealPython_FastAPI/__pycache__/
