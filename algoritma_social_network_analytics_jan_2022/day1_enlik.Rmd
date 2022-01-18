@@ -1,0 +1,44 @@
+---
+title: "day1_enlik"
+author: "Enlik Tjioe"
+date: "1/18/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+```
+
+
+```{r}
+tweets <- read.csv("SNA Material/data_input/tweets.csv") 
+head(tweets, 3)
+```
+
+```{r}
+kota <- c("Bekasi","Jakarta","Bogor")
+status <- c(TRUE, TRUE, TRUE)
+```
+
+## EDA
+
+
+2 hal utama dalam EDA:
+
+- subset data
+- aggregasi data
+
+```{r}
+tweets %>% 
+  count(is_retweet)
+```
+```{r}
+tweets %>% 
+  filter(is_retweet) %>% 
+  select(retweet_count) %>% 
+  summary()
+```
