@@ -1,0 +1,147 @@
+---
+title: "LBB: Social Network Analysis"
+author: "Team Algoritma"
+date: "1/20/2022"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = F, warning = F)
+```
+
+
+```{r}
+library(tidyverse)
+
+# graph
+library(tidygraph)
+library(ggraph)
+library(igraph)
+
+```
+
+<!-- Catatan penting -->
+<!-- 1. Berikan penjelasan dari setiap tahapan yang anda lakukan -->
+
+## Exploratory Data Analysis
+
+<!-- read data -->
+
+<!-- Anda bisa menggunakan data dengan topik apapun yang ditarik dari twitter, namun jika anda kesulitan dalam mendapatkan token dan key anda bisa menggunakan data yang sudah kami sediakan yang bernama `nft.RDS` -->
+
+```{r}
+# tweets <- read_rds("nft.RDS")
+```
+
+
+<!-- Berapa banyak data yang merupakan sebuah retweet? -->
+
+```{r}
+
+```
+
+<!-- siapa akun (screen_name) dengan jumlah retweet berbanyak? -->
+
+```{r}
+
+```
+
+
+## Data cleansing
+
+<!-- pada proses data cleansing ini anda bisa melakukan beberapa hal dibawah. Proses cleansing tidak terpaku seperti dibawah, anda bisa melakukan eksplorasi lebih dalam dengan menggunakan kreatifitas anda.  -->
+
+<!-- - Mengambil kolom `screen_name`, dan `mentions_screen_name` -->
+<!-- - membersihkan string pada kolom `mention_screen_name` -->
+<!-- - memisahkan beberapa nama pada kolom `mention_screen_name` menjadi beberapa baris -->
+<!-- - menghapus missing value (NA) pada data -->
+<!-- - menghapus tanda baca pada kolom `mention_screen_name` -->
+<!-- - mengubah nama `screen_name` menjadi `from` dan `mention_screen_name` menjadi `to` -->
+<!-- - simpan hasil pada object yang bernama `edge_df` -->
+
+```{r}
+
+```
+
+
+<!-- - buat data frame yang bernama `nodes_df` yang berisi kumpulan `screen_name` yang ada pada data `edge_df` -->
+
+```{r}
+
+```
+
+
+<!-- buat graph menggunakan fungsi `tbl_graph()` -->
+```{r}
+
+```
+
+
+## Centrality Measurement
+
+<!-- Hitung nilai centrality dari graph -->
+
+```{r}
+
+```
+
+
+<!-- ambil nilai centrality tersebut menjadi data frame kemudian jelaskan apa yang anda dapatkan -->
+```{r}
+
+```
+
+
+<!-- lakukan eksplorasi pada akun yang memiliki nilai centrality tinggi -->
+```{r}
+
+```
+
+
+
+##  Graph Visualization
+
+
+<!-- membuat cluster -->
+
+```{r}
+
+```
+
+
+
+```{r}
+# fungsi untuk mendapatkan orang orang penting di tiap cluster
+important_user <- function(data) {
+  name_person <- data %>%
+  as.data.frame() %>% 
+  filter(community %in% 1:5) %>% 
+  select(-community) %>% 
+  pivot_longer(-name, names_to = "measures", values_to = "values") %>% 
+  group_by(measures) %>% 
+  arrange(desc(values)) %>% 
+  slice(1:6) %>% 
+  ungroup() %>% 
+  distinct(name) %>% 
+  pull(name)
+  
+  return(name_person)
+}
+```
+
+
+<!-- visualisasikan data graph yang sudah dibuat -->
+
+```{r}
+
+
+
+```
+
+<!-- Kesimpulan -->
