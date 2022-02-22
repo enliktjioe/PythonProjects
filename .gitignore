@@ -30,3 +30,5 @@ RealPython_FastAPI/__pycache__/
 .Rproj.user
 .Rhistory
 algoritma_CNN_for_Quality_Inspection_feb_2022/materials/.ipynb_checkpoints/
+
+algoritma_CNN_for_Quality_Inspection_feb_2022/materials/data_input/mnist.npz
