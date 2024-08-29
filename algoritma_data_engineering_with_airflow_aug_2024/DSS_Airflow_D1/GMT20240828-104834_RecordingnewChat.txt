@@ -1,0 +1,343 @@
+00:47:21	[TA] Victor Nugraha:	Selamat sore & selamat datang di kelas DSS hari 1Sebelum memulai kelas, mohon kesediannya untuk membuka beberapa file terlampir dan mengisi form kehadiranPanduan Online Class, dokumentasi Dive Deeper, dan QnA session: https://bit.ly/dss-airflow-guideError Helper Documentation: https://bit.ly/dss-airflow-errorForm Kehadiran: https://s.id/presensi_dss_agst24Terima kasih
+00:55:23	[TA] Arkana Yudhistira:	sore pak Rizky, selamat datang di sesi QnA untuk DSS hari ini, jika ada pertanyaan untuk sesi QnA ini boleh ditanyakan sambil menunggu
+00:56:46	[TA] Arkana Yudhistira:	Jika masih aman, untuk kelasnya nanti akan dilaksanakan pada pukul 18.30
+00:57:23	[TA] Victor Nugraha:	Selamat sore & selamat datang di kelas DSS hari 1Sebelum memulai kelas, mohon kesediannya untuk membuka beberapa file terlampir dan mengisi form kehadiranPanduan Online Class, dokumentasi Dive Deeper, dan QnA session: https://bit.ly/dss-airflow-guideError Helper Documentation: https://bit.ly/dss-airflow-errorForm Kehadiran: https://s.id/presensi_dss_agst24Terima kasih
+01:00:48	Dimas:	Mungkin itu dulu, terimakasih mas
+01:12:18	[TA] Victor Nugraha:	Selamat sore & selamat datang di kelas DSS hari 1Sebelum memulai kelas, mohon kesediannya untuk membuka beberapa file terlampir dan mengisi form kehadiranPanduan Online Class, dokumentasi Dive Deeper, dan QnA session: https://bit.ly/dss-airflow-guideError Helper Documentation: https://bit.ly/dss-airflow-errorForm Kehadiran: https://s.id/presensi_dss_agst24Terima kasih
+01:28:52	eka:	aman
+01:29:00	Samuel Gema:	Aman mas
+01:29:00	Nabbil Gibran Entyo:	Jelas pak
+01:31:27	[Instructor] Irfan:	Persiapan Kelas
+01:31:30	[Instructor] Irfan:	Reacted to "Persiapan Kelas" with ✅
+01:31:33	[Instructor] Irfan:	Reacted to "Persiapan Kelas" with ❌
+01:31:33	Dimas:	Reacted to "Persiapan Kelas" with ✅
+01:31:37	Kent Bryant:	Reacted to "Persiapan Kelas" with ✅
+01:31:39	Samuel Gema:	Reacted to "Persiapan Kelas" with ✅
+01:31:39	Denny Permana:	Sy ijin msh di jalan
+01:31:51	Muhammad Dhoni Apriyadi:	Reacted to "Persiapan Kelas" with ✅
+01:32:09	Muhammad Dhoni Apriyadi:	untuk mac apakah harus install wsl juga pak?
+01:32:46	Alpian Khairi:	saya di windows gagal install lewat cmd, berhasil lewat powershell dengan akses admin
+01:32:48	[TA] Victor Nugraha:	Replying to "untuk mac apakah har..."
+
+untuk WSL hanya difokuskan untuk windows saja Pak
+01:32:56	Viriyani Dewi:	Izin menyimak terlebih dahulu ya ka, masih dijalan🙏
+01:34:19	[TA] Victor Nugraha:	Replying to "saya di windows gaga..."
+
+untuk menggunakan powershell apakah tampilan akhirnya sama Pak dengan yang diguidance?
+01:34:54	Muhammad Dhoni Apriyadi:	sudah cukup jelas pak , terima kasih
+01:35:22	[Instructor] Irfan:	Replying to "Persiapan Kelas"
+
+🆙
+01:35:30	Ronny:	Reacted to "Persiapan Kelas" with ✅
+01:35:39	Irdiansyah | EconusaID:	Reacted to "Persiapan Kelas" with ✅
+01:36:58	galuh chynintya:	Reacted to "Persiapan Kelas" with ✅
+01:37:40	cherisa vinasari:	ubuntu harus dikasi username dan password kah?
+01:38:18	[TA] Victor Nugraha:	Replying to "ubuntu harus dikasi ..."
+
+betul sekali, karena nantinya pada saat proses installin library membutuhkan verifikasi
+01:38:24	Muhammad Fiqri:	untuk mac perlu install miniconda nggak mas?
+01:38:39	cherisa vinasari:	kalo passwordnya lupa gimana? hehe
+01:39:06	[TA] Arkana Yudhistira:	Replying to "untuk mac perlu inst..."
+
+Betul pak, namun jika dari pak Fiqri sudah menginstall yang sejenis seperti Anaconda tidak masalah pak
+01:40:11	Shavira Z:	Reacted to "Persiapan Kelas" with ✅
+01:40:14	[TA] Victor Nugraha:	Replying to "kalo passwordnya lup..."
+
+hmm untuk proses tersebut sepertinya tidak bias, karena setau saya jika mau recover password di ubuntu harus pada saat booting up
+01:40:24	Hedrin Sitorus:	kak untuk zipnya ga bisa di download ya ?
+01:40:44	[TA] Arkana Yudhistira:	Replying to "kak untuk zipnya ga ..."
+
+silahkan dibuka pada tab baru pak agar ada tombol untuk download dibagian pojok kanan atas
+01:40:57	[TA] Arkana Yudhistira:	Replying to "kak untuk zipnya ga ..."
+
+klik kanan file zip > open in a new tab
+01:40:59	[TA] Victor Nugraha:	Replying to "kalo passwordnya lup..."
+
+tp karena kita menggunakan ubuntu sebagai additional tools di WSL, jadinya akan cukup sulit
+01:41:51	Fibry Tyas:	Reacted to "Persiapan Kelas" with ✅
+01:42:09	Ramdani Triastoto:	Replying to "kak untuk zipnya ga ..."
+
+maaf tadi untuk absensiny dimana ya?
+01:42:18	Gunawan:	Maaf kalau tidak ada wsl bgmn? Bisakah di windows
+01:42:24	Faudi:	tadi putus2
+01:42:28	Hedrin Sitorus:	putus putus kak
+01:42:29	Faudi:	tapi sekrang sudh jelas
+01:42:31	[TA] Victor Nugraha:	Replying to "kalo passwordnya lup..."
+
+mungkin jika lupa bias mencoba menggunakan cara ini https://www.linuxsec.org/2021/07/cara-mengatasi-lupa-password-user-di-wsl.html
+01:42:47	[TA] Victor Nugraha:	Replying to "kak untuk zipnya ga ..."
+
+Form Kehadiran: https://s.id/presensi_dss_agst24
+01:42:56	[TA] Victor Nugraha:	Selamat sore & selamat datang di kelas DSS hari 1Sebelum memulai kelas, mohon kesediannya untuk membuka beberapa file terlampir dan mengisi form kehadiranPanduan Online Class, dokumentasi Dive Deeper, dan QnA session: https://bit.ly/dss-airflow-guideError Helper Documentation: https://bit.ly/dss-airflow-errorForm Kehadiran: https://s.id/presensi_dss_agst24Terima kasih
+01:44:16	Faudi:	jelas dan tampil
+01:49:12	Faudi:	kelihatannya belum pernah
+01:49:56	Samuel Gema:	Saya bikin scraper mas di kantor, tapi  nginputnya tetap manual ke sheets hahaha
+01:50:31	Samuel Gema:	Ada mas
+01:50:37	Samuel Gema:	Shear 2 kali
+01:50:39	Samuel Gema:	sehari
+01:50:52	Samuel Gema:	Awalnya manual mas
+01:51:07	Samuel Gema:	Tapi saya coba pakai cron di mac
+01:51:25	Samuel Gema:	Iyaa tapi masih sederhana ya hahah
+02:06:08	cherisa vinasari:	ini harus pake ubuntu ya?
+02:07:13	[TA] Victor Nugraha:	Replying to "ini harus pake ubunt..."
+
+jika OS yang digunakan adalah windows, betul sekali Bu
+02:07:40	Eka Aperinda:	Apakah available airflow ini melakukan scheduling daily, weekly, or monthly untuk melakukan exec stored procedure sql server kak?
+02:08:13	[TA] Victor Nugraha:	Replying to "ini harus pake ubunt..."
+
+untuk sementara waktu masih terbatas toolsnya harus dijalankan di terimal yang enginernya seperti di ubuntu ataupun mac os
+02:08:32	cherisa vinasari:	prosess ini kan makan space di disk, untuk ilangin proses nya gimana, setelah gak pake ubuntu lagi
+02:08:53	Gunawan:	Replying to "ini harus pake ubunt..." 
+
+ PowerShell atau cmd ngga support yah?
+02:09:42	Grace:	Data engineering sekarang juga cukup banyak ya demandnya
+02:09:55	[TA] Victor Nugraha:	Replying to "ini harus pake ubunt..."
+
+untuk penggunaan CMD ataupun PS memerlukan tools lainnya yang relative lebih berat maupun sulit di installasialternative WSL lebih rekomendasi jika di windows devices
+02:10:03	Denny Permana:	Di laptop saya sdh Ter install anaconda, apakah masih perlu install miniconda?
+02:10:18	[TA] Victor Nugraha:	Replying to "prosess ini kan maka..."
+
+nantinya bias diuninstall lagi Bu
+02:10:25	[TA] Arkana Yudhistira:	tidak perlu pak, miniconda hanyalah anaconda dengan fitur yang lebih sedikit, jadi tentunya anaconda bisa digunakan
+02:10:41	Fibry Tyas:	Airflow bisa untuk real time apa batch saja?
+02:11:03	Gunawan:	Replying to "ini harus pake ubunt..." 
+
+ Seperti docker ya? Dia berat di windows kah?
+02:11:10	Muhammad Dhoni Apriyadi:	Replying to "Airflow bisa untuk r..."
+
+up
+02:11:31	[TA] Victor Nugraha:	Replying to "Data engineering sek..."
+
+betul sekali, karena memang pertumbuhan data sangat besar dan hamper semua company sudah menggunakan database
+02:12:02	[TA] Victor Nugraha:	Replying to "ini harus pake ubunt..."
+
+betul sekali bias pakai docker, dan docker relative lebih berat untuk runningnya di windows
+02:12:02	eka:	izin tanya, Apa kelebihan dengan Airflow, dan mgkn bisa dishare untuk alternative dari airflow ?thank you
+02:12:15	[TA] Victor Nugraha:	Replying to "ini harus pake ubunt..."
+
+karena kami sudah membandingkan docker dengan WSL juga Pak
+02:12:24	Gunawan:	Reacted to karena kami sudah me... with "👍"
+02:13:31	Viriyani Dewi:	Halo ka, untuk airflow apa bs memungkinkan untuk help transfer data from gsheet to sql server nearly realtime?
+02:13:50	Asep Siswandar:	Jika monthly schedule apakah bisa tgl nya mulainya ada tgl 31, 30 atau 28?
+02:14:27	[TA] Arkana Yudhistira:	Replying to "Halo ka, untuk airfl..."
+
+sebenarnya bisa ibu, namun untuk mengakses data dari gsheet dari python membutuhkan library tambahan yang merupakan fitur lain diluar airflow
+02:14:52	[TA] Arkana Yudhistira:	Replying to "Halo ka, untuk airfl..."
+
+jadi Ketika sudah dibaca oleh python, baru bisa diteruskan menggunakan airflow
+02:15:00	eka:	ic thanks kak
+02:15:27	[TA] Victor Nugraha:	Replying to "Jika monthly schedul..."
+
+setau saya di awal bulan Pak secara default, tapi bias diatur secara manual
+02:17:32	Viriyani Dewi:	Replying to "Halo ka, untuk airfl…"
+Terimakasih ka
+02:29:07	[Instructor] Irfan:	Berhasil membuka VSCode
+02:29:10	[Instructor] Irfan:	Reacted to "Berhasil membuka VSC..." with ✅
+02:29:11	Kent Bryant:	Reacted to "Berhasil membuka VSC..." with ✅
+02:29:12	Dimas:	Reacted to "Berhasil membuka VSC..." with ✅
+02:29:12	[Instructor] Irfan:	Reacted to "Berhasil membuka VSC..." with ❌
+02:29:14	Viriyani Dewi:	Berhasil membuka vscode
+02:29:19	Devi Ardiana:	Reacted to "Berhasil membuka VSC..." with ✅
+02:29:21	JICT - Taufan Adhi:	Reacted to "Berhasil membuka VSC..." with ✅
+02:29:21	eka:	👍
+02:29:23	Arasy Hemasthiar:	Reacted to "Berhasil membuka VSC..." with ✅
+02:29:24	Simon Pieter H:	Reacted to "Berhasil membuka VSC..." with ✅
+02:29:25	Faudi:	Berhasil membuka vscode
+02:29:32	eka:	Reacted to "Berhasil membuka VSC..." with ✅
+02:29:33	Muhammad Nadhif Naufal:	Reacted to "Berhasil membuka VSC..." with ✅
+02:29:35	Samuel Gema:	Berhasil mas aman
+02:29:37	Anas Fauzan Baletti:	Reacted to "Berhasil membuka VSC..." with ✅
+02:29:39	[Instructor] Irfan:	Reacted to "Berhasil membuka vsc..." with 👍🏼
+02:29:57	Irdiansyah | EconusaID:	Reacted to "Berhasil membuka VSC..." with ✅
+02:30:17	galuh chynintya:	Reacted to "Berhasil membuka VSC..." with ✅
+02:30:59	Fibry Tyas:	Reacted to "Berhasil membuka VSC..." with ✅
+02:32:46	[Instructor] Irfan:	Berhasil memilih kernel dss_airflow
+02:32:48	[Instructor] Irfan:	Reacted to "Berhasil memilih ker..." with ✅
+02:32:49	Kent Bryant:	Reacted to "Berhasil memilih ker..." with ✅
+02:32:50	[Instructor] Irfan:	Reacted to "Berhasil memilih ker..." with ❌
+02:32:57	Syahvan Alviansyah:	Reacted to "Berhasil memilih ker..." with ✅
+02:33:00	Dimas:	Reacted to "Berhasil memilih ker..." with ❌
+02:33:03	Grace:	Reacted to Berhasil memilih ker... with "✅"
+02:33:04	galuh chynintya:	Reacted to "Berhasil memilih ker..." with ✅
+02:33:07	Raditya Firman Syaputra:	Reacted to "Berhasil memilih ker..." with ✅
+02:33:10	Viriyani Dewi:	Reacted to "Berhasil memilih ker…" with ✅
+02:33:17	eka:	sorry kelewat, aktifin select kernel dmn kah?
+02:33:21	Arasy Hemasthiar:	Reacted to "Berhasil memilih ker..." with ✅
+02:33:44	Simon Pieter H:	Reacted to "Berhasil memilih ker..." with ✅
+02:33:47	eka:	ok
+02:34:11	Faudi:	Reacted to "Berhasil memilih ker..." with ❌
+02:34:17	Dimas:	envnya tidak muncul di vs code
+02:34:36	[TA] Victor Nugraha:	Replying to "Berhasil memilih ker..."
+
+bagi yang terkendala, bias silahkan screenshoot dan dilampirkan di link berikut ini https://bit.ly/dss-airflow-error
+02:35:22	Gibran Entyo:	Reacted to "Berhasil memilih ker..." with ✅
+02:35:38	[TA] Arkana Yudhistira:	Replying to "envnya tidak muncul ..."
+
+bisa dicoba untuk direstart dulu pak untuk VS code nya
+02:35:58	[TA] Arkana Yudhistira:	Replying to "envnya tidak muncul ..."
+
+jika masih tidak muncul, boleh dishare di error helper https://bit.ly/dss-airflow-error
+02:36:27	Gibran Entyo:	Reacted to "Berhasil memilih ker..." with ❌
+02:36:28	Febrianto Kurniawan:	Reacted to "Berhasil memilih ker..." with ✅
+02:37:05	[TA] Victor Nugraha:	Break sampai pukul 19:54
+02:52:52	Kent Bryant:	jelas
+02:52:54	eka:	👍
+02:53:03	[Instructor] Irfan:	Siap melanjutkan kelas
+02:53:05	[Instructor] Irfan:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:07	Devi Ardiana:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:08	Kent Bryant:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:08	[Instructor] Irfan:	Reacted to "Siap melanjutkan kel..." with 🕰️
+02:53:09	Dimas:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:09	Arasy Hemasthiar:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:13	Viriyani Dewi:	Reacted to "Siap melanjutkan kel…" with ✅
+02:53:15	galuh chynintya:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:26	Simon Pieter H:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:28	Muhammad Nadhif Naufal:	Reacted to Siap melanjutkan kel... with "✅"
+02:53:39	Raditya Firman Syaputra:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:41	Taufan Adhi:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:43	Samuel Gema:	Aman mas
+02:53:46	eka:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:48	Nabbil Gibran Entyo:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:48	Irdiansyah | EconusaID:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:57	Maryanto:	Reacted to 👍 with "👍"
+02:53:58	Syahvan Alviansyah:	Reacted to "Siap melanjutkan kel..." with ✅
+02:53:58	Ronny:	Reacted to "Berhasil membuka VSC..." with ✅
+02:54:01	Grace:	Reacted to Siap melanjutkan kel... with "✅"
+02:54:01	Ronny:	Reacted to "Siap melanjutkan kel..." with ✅
+03:06:34	Nabbil Gibran Entyo:	shortcut nambahin code cell nya pake apa ya?
+03:06:58	eka:	A
+03:08:54	Nabbil Gibran Entyo:	Oww oke makasih, tadi gabisa ternyata kursornya masih ngetik
+03:13:28	Faudi:	Reacted to "Siap melanjutkan kel..." with ✅
+03:22:18	[Instructor] Irfan:	Variable
+03:22:21	[Instructor] Irfan:	Reacted to "Variable" with ✅
+03:22:24	[Instructor] Irfan:	Reacted to "Variable" with ❌
+03:22:25	Devi Ardiana:	Reacted to "Variable" with ✅
+03:22:26	eka:	Reacted to "Variable" with ✅
+03:22:27	Faudi:	Reacted to "Variable" with ✅
+03:22:28	Viriyani Dewi:	Reacted to "Variable" with ✅
+03:22:31	Arasy Hemasthiar:	Reacted to "Variable" with ✅
+03:22:36	Grace:	Reacted to Variable with "✅"
+03:22:42	Muhammad Nadhif Naufal:	Reacted to Variable with "✅"
+03:22:57	eka:	lanjutt
+03:23:17	Rizky Permana:	Reacted to Variable with "✅"
+03:23:24	Samuel Gema:	Aman mas
+03:23:27	Ronny:	Reacted to "Variable" with ✅
+03:23:29	Febrianto Kurniawan:	Reacted to "Variable" with ✅
+03:23:29	Dimas:	Reacted to "Variable" with ✅
+03:23:31	Fibry Tyas:	Reacted to "Variable" with ✅
+03:23:42	Maryanto:	Lanjut  mas
+03:25:55	Viriyani Dewi:	bedanya petik 1,2,3 itu apa ya? apa sama saja ?
+03:27:00	[TA] Arkana Yudhistira:	Replying to "bedanya petik 1,2,3 ..."
+
+secara tipe data, ketiga petik itu sama sama untuk string, namun perbedaannya adalah jika petik 3 itu bisa menyimpan enter (sehingga bisa menuliskan paragraph)
+03:27:48	Viriyani Dewi:	Replying to "bedanya petik 1,2,3 ..."
+
+kalau di python itu ada tipe data untuk money ga ya?
+03:28:08	[TA] Victor Nugraha:	Replying to "bedanya petik 1,2,3 ..."
+
+untuk money belum ada Bu
+03:28:26	[TA] Victor Nugraha:	Replying to "bedanya petik 1,2,3 ..."
+
+karena untuk deteksi angka harus dalam bentukan int atau float, yang di mana tidak diperbolehkan ada simbol
+03:28:58	Viriyani Dewi:	Replying to "bedanya petik 1,2,3 ..."
+
+kalau misalnya saya import data mengandung Rp ke python, berarti nanti jatuhnya string dan 'Rp' nya terbaca kah?
+03:29:17	[TA] Arkana Yudhistira:	Replying to "bedanya petik 1,2,3 ..."
+
+betul, keseluruhan nilainya akan terbaca sebagai string
+03:29:25	Viriyani Dewi:	Replying to "bedanya petik 1,2,3 ..."
+
+okeh, terima kasih
+03:35:31	eka:	jika ingin menambahkan data di posisi tertentu, bgmn ya?
+03:38:32	eka:	ok, thanks kak
+03:40:26	Viriyani Dewi:	lanjutt
+03:55:25	[Instructor] Irfan:	If else, fungsi dan for loop
+03:55:28	[Instructor] Irfan:	Reacted to "If else, fungsi dan ..." with ✅
+03:55:30	[Instructor] Irfan:	Reacted to "If else, fungsi dan ..." with ❌
+03:55:39	Kent Bryant:	Reacted to "If else, fungsi dan ..." with ✅
+03:55:43	Viriyani Dewi:	Reacted to "If else, fungsi dan ..." with ✅
+03:56:01	Samuel Gema:	Reacted to "If else, fungsi dan ..." with ✅
+03:56:04	cherisa vinasari:	Reacted to "If else, fungsi dan ..." with ✅
+03:56:06	Arasy Hemasthiar:	Reacted to "If else, fungsi dan ..." with ✅
+03:56:41	Devi Ardiana:	Reacted to "If else, fungsi dan ..." with ✅
+03:56:43	Faudi:	Reacted to "If else, fungsi dan ..." with ✅
+03:56:45	Muhammad Nadhif Naufal:	Reacted to If else, fungsi dan ... with "✅"
+03:56:46	Faudi:	lanjut
+03:56:51	Husain Hidayat:	Reacted to "If else, fungsi dan ..." with ✅
+03:57:03	galuh chynintya:	Reacted to "If else, fungsi dan ..." with ✅
+03:57:12	Nabbil Gibran Entyo:	Reacted to "If else, fungsi dan ..." with ✅
+03:59:50	Grace:	Aman
+04:00:12	[Instructor] Irfan:	Reacted to "Aman" with ✅
+04:00:14	Devi Ardiana:	Reacted to "Aman" with ✅
+04:00:16	[Instructor] Irfan:	Reacted to "Aman" with ❌
+04:00:17	Fibry Tyas:	Reacted to "Aman" with ✅
+04:00:18	Ronny:	Reacted to "Aman" with ✅
+04:00:18	Viriyani Dewi:	Reacted to "Aman" with ✅
+04:00:23	Maryanto:	Aman
+04:04:50	[Instructor] Irfan:	Membaca transaction
+04:04:53	[Instructor] Irfan:	Reacted to "Membaca transaction" with ✅
+04:04:55	[Instructor] Irfan:	Reacted to "Membaca transaction" with ❌
+04:05:08	Devi Ardiana:	Reacted to "Membaca transaction" with ✅
+04:05:14	Muhammad Nadhif Naufal:	Reacted to Membaca transaction with "✅"
+04:06:12	Kent Bryant:	Reacted to "Membaca transaction" with ✅
+04:06:21	cherisa vinasari:	Reacted to "Membaca transaction" with ✅
+04:06:29	Viriyani Dewi:	Reacted to "Membaca transaction" with ✅
+04:06:51	Arasy Hemasthiar:	Reacted to "Membaca transaction" with ✅
+04:07:00	Grace:	Reacted to Membaca transaction with "✅"
+04:09:36	galuh chynintya:	Reacted to "Membaca transaction" with ✅
+04:11:51	Raditya Firman Syaputra:	Reacted to "Membaca transaction" with ✅
+04:14:35	Faudi:	jika step clean ini terlewatkan apakah akan mempengaruhi hasil?
+04:16:31	[TA] Victor Nugraha:	Replying to "jika step clean ini ..."
+
+jika ke airflow tidak ada hubungan
+04:16:47	Faudi:	iya
+04:17:11	Faudi:	biasanya default object,
+04:17:46	[TA] Victor Nugraha:	Replying to "jika step clean ini ..."
+
+tapi jika dihubungkan ke python untuk pengolahan lebih lanjut akan berpengaruh
+04:17:57	[TA] Victor Nugraha:	Replying to "jika step clean ini ..."
+
+dan agar datanya lebih siap untuk di store ke airflow
+04:18:57	Grace:	Saya jadi penasaran apakah airflow bisa dikombinasikan dengan tools rpa?
+04:20:40	Viriyani Dewi:	- amount -->float- transaction_date -->datetime- type --> category- channel--> category- city -->category- state_name -->category
+04:21:33	Grace:	Ia mas
+04:22:11	Grace:	Ah baik mas
+04:23:01	[Instructor] Irfan:	Reacted to "- amount -->float
+- ..." with 👍🏼
+04:23:02	Faudi:	amount =>floattransaction_date =>datetimetype => categorychannel=> categorycity =>categorystate_name =>category
+04:23:13	[TA] Victor Nugraha:	Reacted to "- amount -->float
+- ..." with 👍🏼
+04:23:16	[TA] Victor Nugraha:	Reacted to "amount =>float
+trans..." with ✍️
+04:23:19	[TA] Victor Nugraha:	Reacted to "amount =>float
+trans..." with 👍
+04:23:51	Viriyani Dewi:	mau tanya ka, berarti untuk airflow ini bisa dari mana aja as long bias terhubung dengan python?
+04:23:59	Viriyani Dewi:	*bisa
+04:25:09	[TA] Victor Nugraha:	Replying to "mau tanya ka, berart..."
+
+betul, kurang lebih seperti itu
+04:25:40	Viriyani Dewi:	Replying to "mau tanya ka, berart..."
+
+berarti tanpa docker pun kita bisa menjalankan airflow?
+04:25:55	[TA] Victor Nugraha:	Replying to "mau tanya ka, berart..."
+
+bias karena docker bias digantikan denga WSL
+04:26:11	[TA] Victor Nugraha:	Replying to "mau tanya ka, berart..."
+
+docker memang sebuah opsi juga untuk menjalankan airflow
+04:26:25	Faudi:	apakah TA bisa di chat diluar sesi training?
+04:26:33	Viriyani Dewi:	Replying to "mau tanya ka, berart..."
+
+baik, terima kasih ka
+04:26:54	[TA] Victor Nugraha:	Replying to "apakah TA bisa di ch..."
+
+jika ada kendala bias menghubungi mentor@algorit.ma
+04:27:04	Grace:	Reacted to amount =>float
+trans... with "✍️"
+04:27:28	[TA] Victor Nugraha:	Replying to "mau tanya ka, berart..."
+
+siap samasama
+04:27:58	Dimas:	Kalau docker bisa digunakan buat deploy UI airflow via docker compose juga ?
+04:28:53	Dimas:	Oke terimakasih mas
+04:29:10	Faudi:	terimakasih ilmunya
+04:29:14	Kent Bryant:	oke 👍
