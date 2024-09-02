@@ -1,2 +1,3 @@
 *.csv
 DSS_Airflow_D1/assets/*
+DSS_Airflow_D3/dags/*
