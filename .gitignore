@@ -1,4 +1,4 @@
-
+*.DS_Store
 Positium/.idea/
 
 Positium/data/Countries_WGS84.kml
