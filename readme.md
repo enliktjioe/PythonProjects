@@ -1,0 +1,1 @@
+Personal Python projects for hobby and learning purposes
